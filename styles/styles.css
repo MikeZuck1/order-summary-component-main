@@ -151,6 +151,7 @@ main .content {
     font-family: "roboto", sans-serif;
     font-size: 13px;
     font-weight: bold;
+    color: hsl(245, 75%, 52%);
 }
 
 /* ====== BUTTON CONTAINER ====== */
@@ -170,7 +171,10 @@ main .content {
     background-color: hsl(245, 75%, 52%) ;
     color: hsl(225, 100%, 94%);
     cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+ .button button:hover { background-color: hsl(223, 47%, 23%); } 
 
 /* ====== CANCELED CONTAINER ====== */
 .canceled-content {
@@ -187,6 +191,7 @@ main .content {
     color: hsl(224, 23%, 55%);
     border: none; 
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* ====== INFORMATIONS ====== */
