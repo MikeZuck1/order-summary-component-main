@@ -135,12 +135,14 @@ main .content {
 
 .annual-plan-text-price p {
     font-family: "roboto", sans-serif;
+    line-height: 25px;
     margin-right: 70px;
 }
 
 .annual-plan-text-price span {
     color: hsl(224, 23%, 55%);
     font-family: "roboto", sans-serif;
+    font-size: 15px;
 }
 
 .annual-plan-text-price p span {
