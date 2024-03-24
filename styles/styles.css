@@ -48,6 +48,7 @@ body {
     background-image: url(../images/pattern-background-mobile.svg);
 }
 
+/* ====== MAIN CONTAINER ====== */
 .container {
     display: flex;
     align-items: center;
@@ -67,6 +68,7 @@ main .content {
     border-top-left-radius: 10px;
 }
 
+/* ====== TITLE CONTAINER ====== */
 .title {
     display: flex;
     align-items: center;
@@ -80,7 +82,7 @@ main .content {
     color: hsl(223, 47%, 23%);
 }
 
-
+/* ====== PARAGRAPH CONTAINER ====== */
 .content-paragraphe {
     display: flex;
     align-items: center;
@@ -101,7 +103,7 @@ main .content {
     line-height: 20px;
 }
 
-
+/* ====== ANNUAL CONTAINER ====== */
 .annual-plan-container {
     display: flex;
     align-items: center;
@@ -109,13 +111,49 @@ main .content {
 }
 
 .annual-plan-information {
+    display: flex;
+    align-items: center;
     margin-top: 20px;
     width: 70%;
-    height: 70px;
+    height: 80px;
     border-radius: 10px;
     background-color: hsl(225, 100%, 94%);
 }
 
+/* ====== INSIDE ANNUAL CONTAINERS ====== */
+.icon-music, 
+.annual-plan-text-price,
+.link-to-change {
+    display: inline-block;
+}
+
+.icon-music img {
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.annual-plan-text-price p {
+    font-family: "roboto", sans-serif;
+    margin-right: 50px;
+}
+
+.annual-plan-text-price span {
+    color: hsl(224, 23%, 55%);
+    font-family: "roboto", sans-serif;
+}
+
+.annual-plan-text-price p span {
+    display: block;
+}
+
+.link-to-change a {
+    font-family: "roboto", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ====== BUTTON CONTAINER ====== */
 .button-content {
     display: flex;
     align-items: center;
@@ -134,7 +172,7 @@ main .content {
     cursor: pointer;
 }
 
-
+/* ====== CANCELED CONTAINER ====== */
 .canceled-content {
     display: flex;
     align-items: center;
@@ -150,7 +188,6 @@ main .content {
     border: none; 
     font-weight: bold;
 }
-
 
 /* ====== INFORMATIONS ====== */
 .attribution { 
