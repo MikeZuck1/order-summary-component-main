@@ -58,7 +58,7 @@ body {
 main .content {
     background-color: hsl(225, 100%, 98%);
     width: 400px;
-    height: 570px;
+    height: 580px;
     border-radius: 10px; 
 }
 
@@ -114,7 +114,7 @@ main .content {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    width: 70%;
+    width: 75%;
     height: 80px;
     border-radius: 10px;
     background-color: hsl(225, 100%, 94%);
@@ -135,7 +135,7 @@ main .content {
 
 .annual-plan-text-price p {
     font-family: "roboto", sans-serif;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 .annual-plan-text-price span {
@@ -164,10 +164,11 @@ main .content {
 
 .button-content 
 .button button {
-    width: 280px;
+    width: 300px;
     height: 40px;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
     background-color: hsl(245, 75%, 52%) ;
     color: hsl(225, 100%, 94%);
     cursor: pointer;
@@ -181,7 +182,7 @@ main .content {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .canceled-content button {
